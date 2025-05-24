@@ -9,7 +9,7 @@
   <script defer src="script.js"></script>
 </head>
 
-<body class="bg-gray-500">
+<body class="bg-black">
   <div id="text" class="flex flex-col items-center justify-center mt-2">
     <h1 class=" text-5xl font-bold text-cyan-300">Typing Racer</h1>
     <button class="text-white bg-amber-950 p-2 rounded-md mt-4">Start Game</button>
@@ -20,11 +20,15 @@
       <img id="car2" class="absolute mt-28" src="./Image/car2.png" alt="car2">
     </div>
     <img class="w-[70%]" src="./Image/road.png" alt="road">
+
   </div>
   <div class="text-white flex flex-col items-center justify-center ">
-    <div class="bg-teal-700 rounded-md flex flex-col items-center p-8 mt-4 gap-4">
-      <h1 class="text-4xl font-semiold">hill</h1>
-      <input class="bg-blue-950 p-2 rounded-md" type="text" placeholder="type here">
+    <div id="modal" class="absolute mt-5 rounded-2xl ">
+
+    </div>
+    <div class="bg-pink-500 rounded-md flex flex-col items-center p-12 mt-4 gap-4 ">
+      <h1 id="wordBox" class="text-4xl font-semiold">hill</h1>
+      <input id="typer-word" class="bg-blue-950 p-2 rounded-md" type="text" placeholder="type here">
     </div>
   </div>
 </body>
